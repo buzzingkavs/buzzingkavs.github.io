@@ -1,0 +1,7 @@
+title: Kavitha Kannan
+email: kavithakannan1994@gmail.com
+description: Science writer and insect biologist based in Strasbourg.
+baseurl: ""
+url: ""
+plugins:
+  - jekyll-feed

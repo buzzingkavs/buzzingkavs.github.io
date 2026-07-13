@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ site.description }}">
+    <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+    <link rel="stylesheet" href="/assets/main.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrapper">
+        <a class="site-title" href="/">{{ site.title }}</a>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a class="page-link" href="/publications/">Publications</a>
+          <a class="page-link" href="/writing/">Writing</a>
+          <a class="page-link" href="/about/">About</a>
+        </nav>
+      </div>
+    </header>
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">{{ content }}</div>
+    </main>
+    <footer class="site-footer"><div class="wrapper">Kavitha Kannan · Strasbourg</div></footer>
+  </body>
+</html>
