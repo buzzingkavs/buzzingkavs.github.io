@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- EDIT ME: this is what shows in the browser tab and in Google results -->
+<title>Kavitha Kannan — science writer &amp; illustrator</title>
+<meta name="description" content="Behavioural biologist turned science writer and illustrator. Portfolio of science illustration, comics, and published writing.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Karla:ital,wght@0,400;0,500;1,400&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,300&display=swap" rel="stylesheet">
+
+<style>
+  :root{
+    --ink:#171a1c;
+    --paper:#edebe4;
+    --slate:#4a5459;
+    --rule:#c9c6bc;
+    --amber:#a86e12;
+
+    --display:"Newsreader", Georgia, serif;
+    --body:"Karla", system-ui, sans-serif;
+    --label:"IBM Plex Mono", ui-monospace, monospace;
+  }
+
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    *{animation:none !important; transition:none !important;}
+  }
+
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:var(--body);
+    font-size:17px;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  a{color:var(--ink); text-decoration:none; border-bottom:1px solid var(--rule);}
+  a:hover{color:var(--amber); border-bottom-color:var(--amber);}
+  a:focus-visible{outline:2px solid var(--amber); outline-offset:3px;}
+
+  /* ---------- shell: sticky masthead left, content right ---------- */
+  .shell{
+    display:grid;
+    grid-template-columns: 300px 1fr;
+    gap:64px;
+    max-width:1180px;
+    margin:0 auto;
+    padding:64px 40px 120px;
+  }
+
+  .masthead{position:sticky; top:64px; align-self:start;}
+
+  .name{
+    font-family:var(--display);
+    font-weight:300;
+    font-size:38px;
+    line-height:1.1;
+    margin:0 0 14px;
+    letter-spacing:-0.01em;
+  }
+
+  .standfirst{
+    margin:0 0 28px;
+    color:var(--slate);
+    font-size:16px;
+    max-width:26ch;
+  }
+
+  nav ul{list-style:none; margin:0 0 28px; padding:0;}
+  nav li{margin:0 0 6px;}
+  nav a{
+    font-family:var(--label);
+    font-size:12px;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+    border-bottom:none;
+    color:var(--slate);
+  }
+  nav a:hover{color:var(--amber);}
+
+  .contact{font-family:var(--label); font-size:12.5px; color:var(--slate); line-height:2;}
+  .contact a{border-bottom:1px solid var(--rule);}
+
+  /* ---------- sections ---------- */
+  section{margin:0 0 96px; scroll-margin-top:40px;}
+  section:last-of-type{margin-bottom:0;}
+
+  .section-head{
+    display:flex;
+    align-items:baseline;
+    gap:14px;
+    border-bottom:1px solid var(--rule);
+    padding-bottom:10px;
+    margin-bottom:36px;
+  }
+  .section-head h2{
+    font-family:var(--display);
+    font-weight:400;
+    font-size:22px;
+    margin:0;
+  }
+  .section-head .count{
+    font-family:var(--label);
+    font-size:11px;
+    letter-spacing:0.1em;
+    color:var(--slate);
+    margin-left:auto;
+    text-transform:uppercase;
+  }
+
+  /* ---------- the plate grid (the signature) ---------- */
+  /* Each piece is framed like a specimen plate: a number, the image, a caption. */
+  .plates{
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:44px 36px;
+  }
+
+  .plate{margin:0;}
+
+  .plate .frame{
+    border:1px solid var(--rule);
+    padding:14px;
+    background:#f5f3ee;
+    position:relative;
+    overflow:hidden;
+  }
+  .plate .frame img{
+    display:block;
+    width:100%;
+    height:auto;
+    transition:transform .5s ease;
+  }
+  .plate:hover .frame img{transform:scale(1.02);}
+
+  .plate .no{
+    position:absolute;
+    top:0; left:0;
+    font-family:var(--label);
+    font-size:10.5px;
+    letter-spacing:0.1em;
+    color:var(--slate);
+    background:var(--paper);
+    border-right:1px solid var(--rule);
+    border-bottom:1px solid var(--rule);
+    padding:4px 8px;
+  }
+
+  .plate figcaption{
+    margin-top:12px;
+    display:grid;
+    gap:4px;
+  }
+  .plate .title{
+    font-family:var(--display);
+    font-size:19px;
+    line-height:1.25;
+  }
+  .plate .meta{
+    font-family:var(--label);
+    font-size:11px;
+    letter-spacing:0.06em;
+    text-transform:uppercase;
+    color:var(--slate);
+  }
+  .plate .note{font-size:15px; color:var(--slate);}
+
+  /* ---------- writing list ---------- */
+  .bylines{list-style:none; margin:0; padding:0;}
+  .byline{
+    display:grid;
+    grid-template-columns:120px 1fr;
+    gap:24px;
+    padding:20px 0;
+    border-bottom:1px solid var(--rule);
+    align-items:baseline;
+  }
+  .byline:first-child{border-top:1px solid var(--rule);}
+  .byline .where{
+    font-family:var(--label);
+    font-size:11px;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+    color:var(--slate);
+  }
+  .byline h3{
+    font-family:var(--display);
+    font-weight:400;
+    font-size:20px;
+    margin:0 0 4px;
+  }
+  .byline p{margin:0; color:var(--slate); font-size:15px;}
+
+  /* ---------- about ---------- */
+  .about p{max-width:62ch; margin:0 0 18px;}
+  .about .pull{
+    font-family:var(--display);
+    font-size:22px;
+    line-height:1.45;
+    font-style:italic;
+    color:var(--ink);
+    border-left:2px solid var(--amber);
+    padding-left:20px;
+    margin:0 0 28px;
+    max-width:52ch;
+  }
+  .toolkit{
+    font-family:var(--label);
+    font-size:12.5px;
+    color:var(--slate);
+    line-height:2;
+    border-top:1px solid var(--rule);
+    padding-top:18px;
+    margin-top:32px;
+  }
+  .toolkit strong{color:var(--ink); font-weight:500;}
+
+  footer{
+    grid-column:1 / -1;
+    margin-top:96px;
+    padding-top:18px;
+    border-top:1px solid var(--rule);
+    font-family:var(--label);
+    font-size:11px;
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+    color:var(--slate);
+    display:flex;
+    justify-content:space-between;
+    gap:20px;
+    flex-wrap:wrap;
+  }
+
+  /* ---------- mobile ---------- */
+  @media (max-width: 860px){
+    .shell{grid-template-columns:1fr; gap:48px; padding:40px 22px 80px;}
+    .masthead{position:static;}
+    .name{font-size:32px;}
+    nav ul{display:flex; flex-wrap:wrap; gap:16px; margin-bottom:20px;}
+    nav li{margin:0;}
+    .plates{grid-template-columns:1fr; gap:36px;}
+    .byline{grid-template-columns:1fr; gap:6px;}
+    section{margin-bottom:72px;}
+  }
+</style>
+</head>
+
+<body>
+<div class="shell">
+
+  <!-- ============ LEFT COLUMN: name, nav, contact ============ -->
+  <header class="masthead">
+    <h1 class="name">Kavitha<br>Kannan</h1>
+    <p class="standfirst">Behavioural biologist. I write and draw about animal behaviour, brains, and the small things people walk past.</p>
+
+    <nav aria-label="Sections">
+      <ul>
+        <li><a href="#illustration">Illustration</a></li>
+        <li><a href="#writing">Writing</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+
+    <!-- EDIT ME: your real links -->
+    <div class="contact">
+      <a href="mailto:you@example.com">Email</a><br>
+      <a href="https://www.linkedin.com/in/">LinkedIn</a><br>
+      <a href="#">CV (PDF)</a>
+    </div>
+  </header>
+
+  <!-- ============ RIGHT COLUMN: the work ============ -->
+  <main>
+
+    <!-- ---------- ILLUSTRATION ---------- -->
+    <!-- To add a piece: copy one <figure class="plate"> block and change the number,
+         image filename, title, meta line, and note. Put images in the images/ folder. -->
+    <section id="illustration">
+      <div class="section-head">
+        <h2>Illustration</h2>
+        <span class="count">Plates 01—04</span>
+      </div>
+
+      <div class="plates">
+
+        <figure class="plate">
+          <div class="frame">
+            <span class="no">01</span>
+            <img src="images/plate-01.jpg" alt="Comic panel showing a honey bee deciding whether to sting.">
+          </div>
+          <figcaption>
+            <span class="title">The bees that choose to sting</span>
+            <span class="meta">Comic · Club SciWri · 2025</span>
+            <span class="note">A four-panel comic on why only some bees in a colony commit to stinging. Drawn to accompany my own reporting on the paper.</span>
+          </figcaption>
+        </figure>
+
+        <figure class="plate">
+          <div class="frame">
+            <span class="no">02</span>
+            <img src="images/plate-02.jpg" alt="Describe this illustration for screen readers.">
+          </div>
+          <figcaption>
+            <span class="title">Second piece title</span>
+            <span class="meta">Digital illustration · 2025</span>
+            <span class="note">One sentence on what it shows and why you drew it.</span>
+          </figcaption>
+        </figure>
+
+        <figure class="plate">
+          <div class="frame">
+            <span class="no">03</span>
+            <img src="images/plate-03.jpg" alt="Describe this illustration for screen readers.">
+          </div>
+          <figcaption>
+            <span class="title">Third piece title</span>
+            <span class="meta">Figure design · 2024</span>
+            <span class="note">Good place for a scientific figure you redesigned — it shows the skill editors actually hire for.</span>
+          </figcaption>
+        </figure>
+
+        <figure class="plate">
+          <div class="frame">
+            <span class="no">04</span>
+            <img src="images/plate-04.jpg" alt="Describe this illustration for screen readers.">
+          </div>
+          <figcaption>
+            <span class="title">Fourth piece title</span>
+            <span class="meta">Medium · Year</span>
+            <span class="note">Keep it to your four to six strongest. A short, ruthless portfolio beats a complete one.</span>
+          </figcaption>
+        </figure>
+
+      </div>
+    </section>
+
+    <!-- ---------- WRITING ---------- -->
+    <section id="writing">
+      <div class="section-head">
+        <h2>Writing</h2>
+        <span class="count">Selected bylines</span>
+      </div>
+
+      <ul class="bylines">
+        <li class="byline">
+          <span class="where">Club SciWri · 2025</span>
+          <div>
+            <h3><a href="#">The bees that choose to sting</a></h3>
+            <p>Why a colony's defence rests on a few committed individuals — reported from my own doctoral work.</p>
+          </div>
+        </li>
+
+        <li class="byline">
+          <span class="where">The Hindu · Year</span>
+          <div>
+            <h3><a href="#">Headline of the piece</a></h3>
+            <p>One line on what it argued or uncovered.</p>
+          </div>
+        </li>
+
+        <li class="byline">
+          <span class="where">Outlet · Year</span>
+          <div>
+            <h3><a href="#">Headline of the piece</a></h3>
+            <p>One line on what it argued or uncovered.</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ---------- ABOUT ---------- -->
+    <section id="about" class="about">
+      <div class="section-head">
+        <h2>About</h2>
+      </div>
+
+      <p class="pull">I spent four years asking why a honey bee stings. Now I spend my time making that kind of question legible to people who don't have four years.</p>
+
+      <p>I hold a PhD in biology from the University of Konstanz, where I studied defensive behaviour and neuroethology in honey bees, and an MSc in neuroscience from the EUCOR joint programme in Strasbourg, Freiburg, and Basel. I write and illustrate science for general audiences, and I'm based in Strasbourg.</p>
+
+      <p>I'm currently looking for work in scientific publishing, editorial, science communication, and medical communications. If you're commissioning, hiring, or just want to talk about insects, <a href="mailto:you@example.com">write to me</a>.</p>
+
+      <div class="toolkit">
+        <strong>Tools</strong> — Adobe Illustrator, Affinity Designer, R, Python, LaTeX<br>
+        <strong>Languages</strong> — English (C2), Tamil (native), German (conversational), French (basic)
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <span>Kavitha Kannan — Strasbourg</span>
+    <span>Illustrations © Kavitha Kannan</span>
+  </footer>
+
+</div>
+</body>
+</html>
