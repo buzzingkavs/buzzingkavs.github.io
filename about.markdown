@@ -3,15 +3,16 @@ layout: page
 title: About
 permalink: /about/
 ---
+I identify myself as a science writer and biologist, and I've always been a fan of the natural world. It's one of the main reasons I took up biology, nerded out over it completely, and came to love it with all my heart. I have a PhD in Biology from the University of Konstanz, Germany, where I studied the defensive behaviour of honey bees. I focussed on why some bees choose to sting while others hold back, and extended that work to visualising serotonin, one of the neurotransmitters behind those split-second decisions. This took me from the lab bench to a field season in South Africa, studying the variability in defensiveness of African honeybees.
 
-I’m a science writer and insect biologist. I completed a PhD in Biology at the University of Konstanz in 2025, researching honeybee behaviour and neurobiology. Before that, I earned an MSc in Neuroscience through the EUCOR Joint Master’s programme, studying across Strasbourg, Freiburg, and Basel.
+Before my PhD, my path wound through a fair stretch of the animal kingdom. I ran internships on personality differences, especially boldness, in the climbing perch fish for my Bachelor's; looked at genes that might underlie song perception in zebra finches; played with scorpions by testing how they move under different light conditions; reconstructed butterfly and moth brains as part of an evolution project; and helped analyse neuronal recordings from the visual region of the brain in a Panamanian bee. Across ten years, my work has spanned behavioural experiments, fieldwork, and data analysis. I'm drawn to animal behaviour, ecology, evolution, and neurobiology, and increasingly to how the small decisions of individual animals scale up into big ecological patterns, especially as a changing climate reshapes what those animals face.
 
-My seven years of research experience span behavioural experiments, fieldwork, and data analysis. I’m interested in animal behaviour, ecology, evolution, neurobiology, and the many stories that science can tell about the living world.
+But all through my studies, from my Bachelor's to my PhD, I realised that outside academia most of us don't stop to wonder about the world around us. New research appears every day, and yet technical, jargon-filled studies stay out of reach for the very people who don't know about them but want to. I bridge that gap by communicating science, especially from the natural world, in a way that lights up ordinary daily life. To do that, I've been trying my hand at different media: writing, social media, video, and public talks.
 
-I’m currently building my science-writing portfolio and looking for opportunities in science communication and academia. Please [get in touch](mailto:kavithakannan1994@gmail.com) for commissions, collaborations, or a conversation about insects.
+I'm currently building my science-writing portfolio and looking for opportunities in science communication and academia. Please [get in touch](mailto:kavithakannan1994@gmail.com) for commissions, collaborations, or a conversation about insects.
 
-#### Education
+## Education
 
 - **PhD, Biology** — University of Konstanz, Germany (2025)
-- **MSc, Neuroscience** — EUCOR Joint Master’s, University of Strasbourg (2018)
-- **BSc, Chemistry, Botany and Zoology** — St. Joseph’s College of Science and Arts, Bangalore University (2015)
+- **MSc, Neuroscience** — EUCOR Joint Master's, University of Strasbourg (2018)
+- **BSc, Chemistry, Botany and Zoology** — St. Joseph's College of Science and Arts, Bangalore University (2015)
