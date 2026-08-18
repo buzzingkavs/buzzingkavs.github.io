@@ -5,7 +5,7 @@ permalink: /about/
 ---
 I identify myself as a science writer and biologist, and I've always been a fan of the natural world. It's one of the main reasons I took up biology, nerded out over it completely, and came to love it with all my heart. I have a PhD in Biology from the University of Konstanz, Germany, where I studied the defensive behaviour of honey bees. I focussed on why some bees choose to sting while others hold back, and extended that work to visualising serotonin, one of the neurotransmitters behind those split-second decisions. This took me from the lab bench to a field season in South Africa, studying the variability in defensiveness of African honeybees. 
 <figure>
-  <img src="/images/kavitha_bees.jpg" alt="Kavitha in a beekeeping suit during fieldwork in South Africa" width="100%">
+  <img src="/images/kavitha_bees.jpeg" alt="Kavitha in a beekeeping suit during fieldwork in South Africa" width="100%">
   <figcaption>Fieldwork with African honeybees in South Africa.</figcaption>
 </figure>
 
