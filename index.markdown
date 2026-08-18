@@ -51,7 +51,7 @@ Off the page, I draw comics, watch birds, and have recently taken up running.</p
   .h2 { font-size:1.15rem; font-weight:700; letter-spacing:.01em; margin:0 0 10px; }
   .section p { margin:0 0 14px; }
   .chips { display:flex; flex-wrap:wrap; gap:8px; padding:0; margin:8px 0 0; list-style:none; }
-  .chips li { padding:6px 10px; border:1px solid #d9dce1; border-radius:999px; font-size:.95rem; }
+  .chips li { border: none; background: #f3f1ec; color: #4b4a45; border-radius: 6px; cursor: default; }
   .recent .outlet { color:var(--muted); font-size:.9rem; font-style:italic; }
   .recent .more { margin-top:4px; }
   .recent .more a { color:var(--link); font-weight:600; text-decoration:none; }
