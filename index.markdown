@@ -4,9 +4,14 @@ layout: home
 <main>
   <section class="hero hero-split" aria-label="Introduction">
     <div class="hero-body">
-            <h1 class="title">Hi, I'm Kavitha Kannan, a biologist and science writer.</h1>
+      <h1 class="title">Hi, I'm Kavitha Kannan, a biologist and science writer.</h1>
       <p class="lede">I love biology, and I have a PhD on bees, so I happily answer to "bee-girl." These days I write science stories about the cool things animals do, what's going on in their brains when they do them, the hows and whys behind their lives, and why any of it matters for ours. Off the page, I draw comics, watch birds, and have recently taken up running.</p>
-        <section class="section" aria-labelledby="focus">
+    </div>
+    <div class="hero-media">
+      <img class="avatar" src="/KavithaKannan_biology-no-bg.jpg" alt="Portrait of Kavitha Kannan">
+    </div>
+  </section>
+  <section class="section" aria-labelledby="focus">
     <h2 id="focus" class="h2">Interests</h2>
     <ul class="chips" role="list">
       <li>Bees</li>
@@ -19,11 +24,6 @@ layout: home
       <li>Agriculture</li>
       <li>Bio-inspired tech</li>
     </ul>
-  </section>
-    </div>
-    <div class="hero-media">
-      <img class="avatar" src="/KavithaKannan_biology.jpg" alt="Portrait of Kavitha Kannan">
-    </div>
   </section>
   <section class="section" aria-labelledby="news">
     <h2 id="news" class="h2">Recent writing</h2>
@@ -41,18 +41,16 @@ layout: home
   .hero-split { display:grid; grid-template-columns:1fr 190px; align-items:center; gap:28px; max-width:var(--maxw); margin:0 auto 32px; }
   .hero-media { justify-self:end; }
   .avatar { width:clamp(145px, 22vw, 210px); aspect-ratio:1; object-fit:cover; object-position:center; border-radius:50%; box-shadow:0 4px 18px rgba(0,0,0,.16); }
-  .eyebrow { color:var(--muted); margin:0 0 6px; font-size:1rem; }
   .title { font-size:clamp(1.45rem,1.2rem + 1.2vw,2rem); line-height:1.25; margin:0 0 10px; }
   .lede { font-size:1.05rem; margin:0 0 14px; }
-  .cta { margin:0; display:flex; flex-wrap:wrap; align-items:center; gap:14px; }
-  .btn { display:inline-block; background:var(--link); color:#fff; font-weight:600; text-decoration:none; padding:9px 16px; border-radius:8px; }
-  .btn:hover { opacity:.9; }
   .section { max-width:var(--maxw); margin:12px auto 0; padding:16px; }
   .h2 { font-size:1.15rem; font-weight:700; letter-spacing:.01em; margin:0 0 10px; }
   .section p { margin:0 0 14px; }
+  .chips { display:flex; flex-wrap:wrap; gap:8px; padding:0; margin:8px 0 0; list-style:none; }
+  .chips li { padding:6px 10px; border:1px solid #d9dce1; border-radius:999px; font-size:.95rem; }
   .recent .outlet { color:var(--muted); font-size:.9rem; font-style:italic; }
   .recent .more { margin-top:4px; }
   .recent .more a { color:var(--link); font-weight:600; text-decoration:none; }
   .recent .more a:hover { text-decoration:underline; }
-  @media (max-width:640px) { .hero-split { grid-template-columns:1fr; text-align:center; } .hero-media { justify-self:center; grid-row:1; } .cta { justify-content:center; } }
+  @media (max-width:640px) { .hero-split { grid-template-columns:1fr; text-align:center; } .hero-media { justify-self:center; grid-row:1; } }
 </style>
