@@ -4,9 +4,8 @@ layout: home
 <main>
   <section class="hero hero-split" aria-label="Introduction">
     <div class="hero-body">
-      <p class="eyebrow">Science writer · Insect biologist</p>
-      <h1 class="title">I'm Kavitha Kannan, an insect biologist and science writer.</h1>
-      <p class="lede">I write about animal behaviour, ecology, and evolution for general readers, drawing on seven years of hands-on research in behavioural experiments, fieldwork, and data analysis.</p>
+      <h1 class="title">Hi, I'm Kavitha Kannan, a biologist and science writer. </h1>
+      <p class="lede">I love biology, got myself a PhD on bees (and hence, a bee-girl) and I write about animal behaviour, ecology, and evolution for general readers, drawing on ~10 years of research experience in the field.</p>
       <p class="cta">
         <a class="btn" href="/writing/">Read my writing →</a>
       </p>
