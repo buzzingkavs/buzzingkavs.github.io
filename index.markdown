@@ -6,9 +6,12 @@ layout: home
   <section class="hero hero-split" aria-label="Introduction">
     <div class="hero-body">
       <p class="eyebrow">Science writer · Insect biologist</p>
-      <h1 class="title">I’m Kavitha Kannan - a science writer and insect biologist based in Strasbourg.</h1>
-      <p class="lede">I write about animal behaviour, ecology, evolution, and the natural world, drawing on seven years of hands-on research in behavioural experiments, fieldwork, and data analysis.</p>
-      <p class="cta"><a class="inline" href="mailto:kavithakannan1994@gmail.com">Get in touch →</a></p>
+      <h1 class="title">I'm Kavitha Kannan — an insect biologist and science writer.</h1>
+      <p class="lede">I write about animal behaviour, ecology, and evolution for general readers, drawing on seven years of hands-on research in behavioural experiments, fieldwork, and data analysis.</p>
+            <p class="cta">
+        <a class="btn" href="/writing/">Read my writing →</a>
+        <a class="inline" href="mailto:kavithakannan1994@gmail.com">Get in touch →</a>
+      </p>
     </div>
     <div class="hero-media">
       <img class="avatar" src="/KavithaKannan_biology.jpg" alt="Portrait of Kavitha Kannan">
@@ -49,7 +52,10 @@ layout: home
   .eyebrow { color:var(--muted); margin:0 0 6px; font-size:1rem; }
   .title { font-size:clamp(1.45rem,1.2rem + 1.2vw,2rem); line-height:1.25; margin:0 0 10px; }
   .lede { font-size:1.05rem; margin:0 0 14px; }
-  .cta { margin:0; } .inline { color:var(--link); font-weight:600; text-decoration:none; } .inline:hover { text-decoration:underline; }
+    .cta { margin:0; display:flex; flex-wrap:wrap; align-items:center; gap:14px; }
+  .btn { display:inline-block; background:var(--link); color:#fff; font-weight:600; text-decoration:none; padding:9px 16px; border-radius:8px; }
+  .btn:hover { opacity:.9; }
+  .inline { color:var(--link); font-weight:600; text-decoration:none; } .inline:hover { text-decoration:underline; }
   .section { max-width:var(--maxw); margin:12px auto 0; padding:16px; }
   .h2 { font-size:1.15rem; font-weight:700; letter-spacing:.01em; margin:0 0 10px; }
   .section p { margin:0; }
@@ -58,5 +64,5 @@ layout: home
   .news-list { list-style:none; margin:12px 0 0; padding:0; display:grid; gap:18px; }
   .news-list li { display:grid; grid-template-columns:5ch 1fr; gap:16px; }
   .news-list time { color:var(--muted); font-size:.9rem; }
-  @media (max-width:640px) { .hero-split { grid-template-columns:1fr; text-align:center; } .hero-media { justify-self:center; grid-row:1; } }
+  @media (max-width:640px) { .hero-split { grid-template-columns:1fr; text-align:center; } .hero-media { justify-self:center; grid-row:1; } .cta { justify-content:center; } }
 </style>
