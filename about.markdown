@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-I identify myself as a science writer and biologist, and I've always been a fan of the natural world. It's one of the main reasons I took up biology, nerded out over it completely, and came to love it with all my heart. I have a PhD in Biology from the University of Konstanz, Germany, where I studied the defensive behaviour of honey bees. I focussed on why some bees choose to sting while others hold back, and extended that work to visualising serotonin, one of the neurotransmitters behind those split-second decisions. This took me from the lab bench to a field season in South Africa, studying the variability in defensiveness of African honeybees. 
+I identify myself as a biologist and science writer, and I've always been a fan of the natural world. It's one of the main reasons I took up biology, nerded out over it completely, and came to love it with all my heart. I have a PhD in Biology from the University of Konstanz, Germany, where I studied the defensive behaviour of honey bees. I focussed on why some bees choose to sting while others hold back, and extended that work to visualising serotonin, one of the neurotransmitters behind those split-second decisions. This took me from the lab bench to a field season in South Africa, studying the variability in defensiveness of African honeybees. 
 
 <figure style="max-width:100px; float:right; margin:0.3rem 0 1rem 1.5rem;">
 <img src="/images/kavitha_bees.jpeg" alt="Fieldwork in South Africa" style="width:100%; height:auto; border-radius:8px;">
