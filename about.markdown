@@ -20,5 +20,5 @@ I'm currently building my science-writing portfolio and looking for opportunitie
 ## Education
 
 - **PhD, Biology** — University of Konstanz, Germany (2025)
-- **MSc, Neuroscience** — EUCOR Joint Master's, University of Strasbourg (2018)
-- **BSc, Chemistry, Botany and Zoology** — St. Joseph's College of Science and Arts, Bangalore University (2015)
+- **MSc, Neuroscience** — EUCOR (France-Germany-Swiss) Trinational Joint Master's, University of Strasbourg, France (2018)
+- **BSc, Chemistry, Botany and Zoology** — St. Joseph's College of Science and Arts, Bangalore University, India (2015)
