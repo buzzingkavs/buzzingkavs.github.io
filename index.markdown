@@ -4,8 +4,22 @@ layout: home
 <main>
   <section class="hero hero-split" aria-label="Introduction">
     <div class="hero-body">
-      <h1 class="title">Hi, I'm Kavitha Kannan, a biologist and science writer. </h1>
-      <p class="lede">I love biology, got myself a PhD on bees (and hence, a bee-girl) and I write about animal behaviour, ecology, and evolution for general readers, drawing on ~10 years of research experience in the field.</p>
+            <h1 class="title">Hi, I'm Kavitha Kannan, a biologist and science writer.</h1>
+      <p class="lede">I love biology, and I have a PhD on bees, so I happily answer to "bee-girl." These days I write science stories about the cool things animals do, what's going on in their brains when they do them, the hows and whys behind their lives, and why any of it matters for ours. Off the page, I draw comics, watch birds, and have recently taken up running.</p>
+        <section class="section" aria-labelledby="focus">
+    <h2 id="focus" class="h2">Interests</h2>
+    <ul class="chips" role="list">
+      <li>Bees</li>
+      <li>Pollinators</li>
+      <li>Behaviour</li>
+      <li>Brains</li>
+      <li>Ecology</li>
+      <li>Evolution</li>
+      <li>Conservation science</li>
+      <li>Agriculture</li>
+      <li>Bio-inspired tech</li>
+    </ul>
+  </section>
     </div>
     <div class="hero-media">
       <img class="avatar" src="/KavithaKannan_biology.jpg" alt="Portrait of Kavitha Kannan">
