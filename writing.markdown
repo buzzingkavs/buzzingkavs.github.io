@@ -3,7 +3,7 @@ layout: page
 title: Writing
 permalink: /writing/
 ---
-I've always been a fan of the natural world — it's one of the main reasons I took up biology, nerded out over it completely, and came to love it with all my heart. But all through my studies, from my Bachelor's to my PhD, I realised that outside academia most of us don't stop to wonder about the world around us. New research appears every day, and yet technical, jargon-filled studies stay out of reach for the very people who don't know about them but want to. I think I can help bridge that gap — communicating science, especially from the natural world, in a way that lights up ordinary daily life. To do that, I've been trying my hand at different media: writing, social media, video, and public talks. Here's some of my work:
+I write on topics ranging from animal behaviour, neurobiology, ecology, and evolution to agriculture and conservation, including where technology intersects with them. My training over the years also makes it easier to grasp molecular and cellular biology, which I enjoy translating into plain language.
 
 ## Science Writing
 
