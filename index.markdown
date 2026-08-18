@@ -1,49 +1,31 @@
 ---
 layout: home
 ---
-
 <main>
   <section class="hero hero-split" aria-label="Introduction">
     <div class="hero-body">
       <p class="eyebrow">Science writer · Insect biologist</p>
-      <h1 class="title">I'm Kavitha Kannan — an insect biologist and science writer.</h1>
+      <h1 class="title">I'm Kavitha Kannan, an insect biologist and science writer.</h1>
       <p class="lede">I write about animal behaviour, ecology, and evolution for general readers, drawing on seven years of hands-on research in behavioural experiments, fieldwork, and data analysis.</p>
-            <p class="cta">
+      <p class="cta">
         <a class="btn" href="/writing/">Read my writing →</a>
-        <a class="inline" href="mailto:kavithakannan1994@gmail.com">Get in touch →</a>
       </p>
     </div>
     <div class="hero-media">
       <img class="avatar" src="/KavithaKannan_biology.jpg" alt="Portrait of Kavitha Kannan">
     </div>
   </section>
-
-  <section class="section" aria-labelledby="what">
-    <h2 id="what" class="h2">What I do</h2>
-    <p>I turn scientific ideas into clear, lively stories for general audiences. My work is rooted in insect behaviour and neurobiology, with a particular affection for bees and the small lives that make ecosystems work.</p>
-  </section>
-
-  <section class="section" aria-labelledby="focus">
-    <h2 id="focus" class="h2">Areas of interest</h2>
-    <ul class="chips" role="list">
-      <li>Animal behaviour</li>
-      <li>Insects</li>
-      <li>Ecology</li>
-      <li>Evolution</li>
-      <li>Neurobiology</li>
-      <li>Fieldwork</li>
-    </ul>
-  </section>
-
   <section class="section" aria-labelledby="news">
     <h2 id="news" class="h2">Recent writing</h2>
-    <ul class="news-list" role="list">
-      <li><time datetime="2026">2026</time><p><strong>“Kingmakers: meet the insects that make India’s famed mangoes”</strong> — a reported feature on wild insect pollinators and mango yield, published in <em>The Hindu</em>.</p></li>
-      <li><time datetime="2026">Next</time><p><strong>“The Bees that Choose to Sting”</strong> — a feature for Club SciWri on doctoral research into honeybee defensive behaviour.</p></li>
-    </ul>
+    <div class="recent">
+      <p><strong><a href="https://www.thehindu.com/sci-tech/energy-and-environment/kingmakers-meet-the-insects-that-make-india-famed-mangoes/article71141108.ece">Kingmakers: meet the insects that make India's famed mangoes</a></strong><br>
+      <span class="outlet">The Hindu</span></p>
+      <p><strong><a href="https://www.asianscientist.com/2026/08/environment/wax-the-secret-ingredient-in-making-a-honeybee-queen/">Wax: the secret ingredient in making a honeybee queen</a></strong><br>
+      <span class="outlet">Asian Scientist</span></p>
+      <p class="more"><a href="/writing/">All writing →</a></p>
+    </div>
   </section>
 </main>
-
 <style>
   :root { --ink:#111; --muted:#6b7280; --link:#2a7ae2; --maxw:46rem; }
   .hero-split { display:grid; grid-template-columns:1fr 190px; align-items:center; gap:28px; max-width:var(--maxw); margin:0 auto 32px; }
@@ -52,17 +34,15 @@ layout: home
   .eyebrow { color:var(--muted); margin:0 0 6px; font-size:1rem; }
   .title { font-size:clamp(1.45rem,1.2rem + 1.2vw,2rem); line-height:1.25; margin:0 0 10px; }
   .lede { font-size:1.05rem; margin:0 0 14px; }
-    .cta { margin:0; display:flex; flex-wrap:wrap; align-items:center; gap:14px; }
+  .cta { margin:0; display:flex; flex-wrap:wrap; align-items:center; gap:14px; }
   .btn { display:inline-block; background:var(--link); color:#fff; font-weight:600; text-decoration:none; padding:9px 16px; border-radius:8px; }
   .btn:hover { opacity:.9; }
-  .inline { color:var(--link); font-weight:600; text-decoration:none; } .inline:hover { text-decoration:underline; }
   .section { max-width:var(--maxw); margin:12px auto 0; padding:16px; }
   .h2 { font-size:1.15rem; font-weight:700; letter-spacing:.01em; margin:0 0 10px; }
-  .section p { margin:0; }
-  .chips { display:flex; flex-wrap:wrap; gap:8px; padding:0; margin:8px 0 0; list-style:none; }
-  .chips li { padding:6px 10px; border:1px solid #d9dce1; border-radius:999px; font-size:.95rem; }
-  .news-list { list-style:none; margin:12px 0 0; padding:0; display:grid; gap:18px; }
-  .news-list li { display:grid; grid-template-columns:5ch 1fr; gap:16px; }
-  .news-list time { color:var(--muted); font-size:.9rem; }
+  .section p { margin:0 0 14px; }
+  .recent .outlet { color:var(--muted); font-size:.9rem; font-style:italic; }
+  .recent .more { margin-top:4px; }
+  .recent .more a { color:var(--link); font-weight:600; text-decoration:none; }
+  .recent .more a:hover { text-decoration:underline; }
   @media (max-width:640px) { .hero-split { grid-template-columns:1fr; text-align:center; } .hero-media { justify-self:center; grid-row:1; } .cta { justify-content:center; } }
 </style>
