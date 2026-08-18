@@ -5,7 +5,11 @@ layout: home
   <section class="hero hero-split" aria-label="Introduction">
     <div class="hero-body">
       <h1 class="title">Hi, I'm Kavitha Kannan, a biologist and science writer.</h1>
-      <p class="lede">I love biology, and I have a PhD on bees, so I happily answer to "bee-girl." These days I write science stories about the cool things animals do, what's going on in their brains when they do them, the hows and whys behind their lives, and why any of it matters for ours. Off the page, I draw comics, watch birds, and have recently taken up running.</p>
+      <p class="lede">I love biology, and I have a PhD on bees, so I happily answer to "bee-girl." 
+        
+These days I write science stories about the cool things animals do, what's going on in their brains when they do them, the hows and whys behind their lives, and why any of it matters for ours. 
+        
+Off the page, I draw comics, watch birds, and have recently taken up running.</p>
     </div>
     <div class="hero-media">
       <img class="avatar" src="/KavithaKannan_biology-no-bg.jpg" alt="Portrait of Kavitha Kannan">
