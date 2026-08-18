@@ -15,4 +15,4 @@ My research examines honeybee behaviour and neurobiology, alongside comparative 
 
 3. Adden A, Garcia Dominguez S, Kliem K, **Kannan K**, et al. (2026). [The evolution of lepidopteran brain morphology.](https://doi.org/10.1007/s00359-025-01787-w) *Journal of Comparative Physiology A*, 212(2), 409-432.
 
-4. Honkanen A, Hensgen R, **Kannan K**, Adden A, et al. (2023). [[Parallel motion vision pathways in the brain of a tropical bee.](https://doi.org/10.1007/s00359-023-01625-x)] *Journal of Comparative Physiology A*, 209(4), 563–591.
+4. Honkanen A, Hensgen R, **Kannan K**, Adden A, et al. (2023). [Parallel motion vision pathways in the brain of a tropical bee.](https://doi.org/10.1007/s00359-023-01625-x)] *Journal of Comparative Physiology A*, 209(4), 563–591.
