@@ -6,9 +6,6 @@ layout: home
     <div class="hero-body">
       <h1 class="title">Hi, I'm Kavitha Kannan, a biologist and science writer. </h1>
       <p class="lede">I love biology, got myself a PhD on bees (and hence, a bee-girl) and I write about animal behaviour, ecology, and evolution for general readers, drawing on ~10 years of research experience in the field.</p>
-      <p class="cta">
-        <a class="btn" href="/writing/">Read my writing →</a>
-      </p>
     </div>
     <div class="hero-media">
       <img class="avatar" src="/KavithaKannan_biology.jpg" alt="Portrait of Kavitha Kannan">
