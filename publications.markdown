@@ -3,7 +3,7 @@ layout: page
 title: Publications
 permalink: /publications/
 ---
-My research examines honeybee behaviour and neurobiology, alongside comparative work on insect brains and vision. A complete CV is available as a [PDF](/CV_KavithaKannan_ScienceWriting.pdf).
+My research examines honeybee behaviour and neurobiology, alongside comparative work on insect brains and vision. 
 
 ## First-author publications
 
