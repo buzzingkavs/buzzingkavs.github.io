@@ -25,11 +25,10 @@ While eating my way through a ton of mangoes on a trip to India, I started wonde
 I took part in a science writing workshop organised by Club SciWri in early 2026, and contributed a feature drawn from my doctoral research into honeybee defensive behaviour: why some bees sting and others hold back.
 
 ## Public engagement
-
-- Creator of **[BuzzingKavs](https://www.instagram.com/buzzingkavs/)**, a science Instagram channel on PhD research and bees.
-- Featured creator in the University of Konstanz's **[Fieldwork Diaries] (https://www.instagram.com/reel/C3hoQRDK7VX/?igsh=MXRqcG9kOWNmaW1zdA==)** series from South Africa (2024).
-- Guest host for a **[PhD Diary](https://www.instagram.com/reel/CwNE_feqyEh/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==)** Instagram channel takeover at University of Konstanz (2023).
-- Speaker at **[Soapbox Science Munich] (https://munichsoapboxscience.com/soapbox-science-2023/9/)** on honeybee defensive behaviour (2023).
+- Creator of [BuzzingKavs](https://www.instagram.com/buzzingkavs/), a science Instagram channel on PhD research and bees. (2021-present)
+- Featured creator in the University of Konstanz's [Fieldwork Diaries](https://www.instagram.com/reel/C3hoQRDK7VX/) series from South Africa (2024).
+- Guest host for a [PhD Diary](https://www.instagram.com/reel/CwNE_feqyEh/) Instagram channel takeover at University of Konstanz (2023).
+- Speaker at [Soapbox Science Munich](https://munichsoapboxscience.com/soapbox-science-2023/9/) on honeybee defensive behaviour (2023).
 
 ---
 *Available for freelance science writing and commissions — [kavithakannan1994@gmail.com](mailto:kavithakannan1994@gmail.com)*
