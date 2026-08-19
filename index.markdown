@@ -7,6 +7,7 @@ layout: home
       <h1 class="title">Hi, I'm Kavitha Kannan, a biologist and science writer.</h1>
       <p class="lede">I love biology, and I have a PhD on bees, so I happily answer to "bee-girl." </p>
       <p class="lede">These days I write science stories about the cool things animals do, what's going on in their brains when they do them, the hows and whys behind their lives, and why any of it matters for ours. </p>
+      <p class="lede">This page's name, 'BuzzingKavs', comes from my love for all things buzzing: bees, other insects, a busy brain, and yes, phones — yay for communication! 'Kavs' is a nickname of mine that goes back to school.</p>
      <p class="lede">Off the page, I draw comics, watch birds, and have recently taken up running.</p>
     </div>
     <div class="hero-media">
