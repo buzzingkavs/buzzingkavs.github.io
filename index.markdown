@@ -4,11 +4,13 @@ layout: home
 <main>
   <section class="hero hero-split" aria-label="Introduction">
     <div class="hero-body">
-      <h1 class="title">Hi, I'm Kavitha Kannan, a biologist and science writer.</h1>
-      <p class="lede">I love biology, and I have a PhD on bees, so I happily answer to "bee-girl." </p>
-      <p class="lede">These days I write science stories about the cool things animals do, what's going on in their brains when they do them, the hows and whys behind their lives, and why any of it matters for ours. </p>
-      <p class="lede">This page's name, 'BuzzingKavs', comes from my love for all things buzzing: bees, other insects, a busy brain, and yes, phones — yay for communication! 'Kavs' is a nickname of mine that goes back to school.</p>
-     <p class="lede">Off the page, I draw comics, watch birds, and have recently taken up running.</p>
+      <h1 class="title">Hi, I'm Kavitha Kannan, a biologist and science communicator.</h1>
+      <p class="lede">Ever since middle school, I have loved biology, whether it's the mysterious chemical properties of a rare plant, why animals behave the way they do, or what's going on in their brains and in ours, in healthy and not-so-healthy conditions. Over the past 10 years, I've been on an academic adventure, hopping countries, working on really cool projects, and picking up a bachelor's in Natural Sciences, a master's in Neuroscience, and a PhD on honey bee behaviour and neurobiology.</p>
+      <p class="lede">I've really enjoyed being behind the science: running experiments, untangling tricky datasets, and following my curiosity into the nitty-gritty details. But I've come to realise I love talking about science even more. I like finding the analogy or story that makes a complex idea click, and showing how it connects to everyday life.</p>
+      <p class="lede">These days I write articles and features for magazines and newspapers, and I'm reviving my Instagram page as a space for science, comics and a bit of fun. I write about brains, behaviour, health and the natural world: how they work, the hows and whys behind them, and why any of it matters for us. What ties it all together is curiosity, a sense of adventure, and wanting to give back to the community through writing, science communication and mentoring.</p>
+      <p class="lede">I'm open to roles where science meets people: communication, editorial, marketing, research or coordination.</p>
+      <p class="lede">This page's name, BuzzingKavs, comes from my love for all things buzzing: bees and other insects, a busy brain, and yes, phones (yay for communication!). Kavs is a nickname that goes back to school.</p>
+      <p class="lede">Off the page, I draw comics, watch birds, and have recently taken up running.</p>
     </div>
     <div class="hero-media">
       <img class="avatar" src="/KavithaKannan_biology-no-bg.jpg" alt="Portrait of Kavitha Kannan">
@@ -17,13 +19,13 @@ layout: home
   <section class="section" aria-labelledby="focus">
     <h2 id="focus" class="h2">Interests</h2>
     <ul class="chips" role="list">
-      <li>Bees</li>
-      <li>Pollinators</li>
-      <li>Behaviour</li>
       <li>Brains</li>
+      <li>Behaviour</li>
+      <li>Health</li>
       <li>Ecology</li>
       <li>Evolution</li>
       <li>Conservation science</li>
+      <li>Pollinators</li>
       <li>Agriculture</li>
       <li>Bio-inspired tech</li>
     </ul>
