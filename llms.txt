@@ -1,0 +1,20 @@
+# Kavitha Kannan
+
+> Biologist and science communicator with a PhD in honeybee behaviour and neurobiology from the University of Konstanz, Germany. Writes about animal behaviour, neurobiology, ecology, evolution, agriculture, and conservation. Available for freelance science writing, commissions, and roles in science communication, editorial, and research.
+
+- Email: kavithakannan1994@gmail.com
+- LinkedIn: https://www.linkedin.com/in/kavskannan/
+- Instagram: https://www.instagram.com/buzzingkavs/
+
+## Pages
+
+- [Home](https://buzzingkavs.github.io/): introduction and featured work
+- [Portfolio](https://buzzingkavs.github.io/portfolio/): articles (The Hindu, Asian Scientist, Club SciWri), social media, talks, and illustration
+- [Research](https://buzzingkavs.github.io/research/): peer-reviewed publications on honeybee defensive behaviour, insect olfaction, and insect brains
+- [About](https://buzzingkavs.github.io/about/): background, skills, and education
+
+## Key facts
+
+- PhD in Biology, University of Konstanz (2025): individual honeybees are consistent in whether they sting; serotonin levels differ in brain regions of defensive bees.
+- MSc in Neuroscience, University of Strasbourg (2018).
+- Fieldwork with African honeybees in South Africa (2024).
